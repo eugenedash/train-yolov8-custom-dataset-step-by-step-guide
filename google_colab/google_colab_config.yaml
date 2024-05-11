@@ -1,8 +1,9 @@
 
-path: '/content/gdrive/My Drive/ComputerVisionDeveloper/TrainYolov8CustomDataset/data' # dataset root dir
+path: '/content/gdrive/My Drive/person_detector/my_dataset_yolo' # dataset root dir
 train: images/train  # train images (relative to 'path')
-val: images/train  # val images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/val  # val images (relative to 'path')
 
 # Classes
 names:
-  0: alpaca
+  0: person
